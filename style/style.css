@@ -1,0 +1,12 @@
+body{
+    background-color:rgb(255, 219, 205);
+    }
+p{
+    font-family: Helvetica, sans-serif;
+}
+.titles{
+    font-family: 'Times New Roman', serif;
+}
+ul{
+    line-height: 25px;
+}
