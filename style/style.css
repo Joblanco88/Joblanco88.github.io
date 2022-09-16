@@ -1,27 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color:rgb(233, 225, 255);
     }
-.menu{
-    background-color: rgb(233, 225, 255);
-    position: fixed;
-}
 p{
     font-family: Helvetica, sans-serif;
-    margin-left: 1px;
-    margin-right: 1px;
+    margin-top: 20px;
+    margin-left: 2px;
+    margin-right: 2px;
     background-color: rgb(240, 234, 255);
     border-radius: 10px;
     padding: 4px 8px 4px 8px;
     overflow: auto;
 }
+.menu{
+    background-color: rgb(233, 225, 255);
+    position: fixed;
+    padding: 20px 0px 10px 10px;
+    width: 100%;
+}
+.bottomBlock{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.bottomInfo{
+    width: auto;
+    display: inline-block;
+    background-color: aqua;
+    border-radius: 15%;
+    text-align: center;
+}
 .picture{
     border-radius: 15%;
-    margin-left: 40px;
+    width: 200px;
+    margin: 75px  0px 10px 40px;
 }
 .titles{
     font-family: 'Times New Roman', serif;
     color: #10003d;
-    margin-left: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 ul{
     line-height: 25px;
@@ -54,19 +74,20 @@ a{
 a:hover{
     background-size: 0% 3px, 100% 3px;
 }
-#redeSocial{
-    margin-right: 70%;
-    text-align: center;
-    padding: 1%;  
-}
 #textAbout{
     margin-right: 25%;
     text-align: left;
+    margin-left: 15px;
+}
+#redeSocial{
+    text-align: center;
 }
 #titleRedes{
-    
+    margin-bottom: 10px;
 }
-
-#urlInsta{
-    margin-left: 5px;
+#unorderedList{
+    width: 300px;
+}
+#divSocial{
+    width: 300px;
 }
