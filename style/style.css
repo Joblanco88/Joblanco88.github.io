@@ -25,12 +25,11 @@ p{
 }
 .bottomBlock{
     text-align: center;
-    background-color: antiquewhite;
+    margin-top: 20px;
 }
 .bottomInfo{
     width: auto;
     display: inline-block;
-    background-color: aqua;
     border-radius: 15%;
     text-align: center;
 }
@@ -98,4 +97,5 @@ a:hover{
 }
 #divSocial{
     width: 300px;
+    
 }
